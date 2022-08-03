@@ -1,0 +1,16 @@
+.about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #d4d4d4;
+    margin-bottom: 10rem;
+}
+
+.inside_about {
+    display: flex;
+    align-items: center;
+}
+
+.second_title {
+    color: orange;
+}
