@@ -10,7 +10,7 @@ import { GiTakeMyMoney } from 'react-icons/gi';
 
 const Branches = () => {
     return (
-        <div className='section'>
+        <div className='section' id='branches'>
             <div className="container">
                 <h3 className='title'>আমাদের সকল <span className='highlights'>ব্র্যাঞ্চসমূহ</span></h3>
                 <p className='subtitle'>দেখুন, মিলিয়ে নিন আমাদের কার্যক্রম</p>
@@ -51,7 +51,7 @@ const Branches = () => {
                 </div>
 
                 <h5 className='branch_title mt-5'>সাহায্যপ্রাপ্তদের তালিকা</h5>
-                <table class="table">
+                {/* <table class="table">
                     <thead>
                         <tr>
                             <th scope="col">আইডি</th>
@@ -98,7 +98,7 @@ const Branches = () => {
                             <td>বাড়ি মেরামতের জন্য</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> */}
 
             </div>
         </div>

@@ -9,19 +9,20 @@ import Files from './components/Files/Files';
 import Peoples from './components/Peoples/Peoples';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
+import All from './components/All/All';
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Header />} />
+        {/* <Route path="/about" element={<About />} />
         <Route path="/branches" element={<Branches />} />
         <Route path="/peoples" element={<Peoples />} />
         <Route path="/files" element={<Files />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/register" element={<Register />} /> */}
       </Routes>
     </>
   );

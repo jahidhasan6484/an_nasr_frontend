@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className='section'>
+        <div className='section' id = "about">
             <div className='container'>
                 <h3 className='title'><span className='highlights'>তথ্য</span> সমূহ</h3>
                 <p className='subtitle'>আন নাসর সম্পর্কে জানুন</p>

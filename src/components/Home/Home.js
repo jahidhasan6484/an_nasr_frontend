@@ -10,7 +10,7 @@ import { GiTakeMyMoney } from 'react-icons/gi';
 
 const Home = () => {
     return (
-        <div className='section home'>
+        <div className='section' id='home'>
             <div className='container'>
                 <h3 className='title'>এক নজরে আমাদের <span className='highlights'>সফলতা</span></h3>
                 <p className='subtitle'>মানুষ মানুষের জন্যে</p>
