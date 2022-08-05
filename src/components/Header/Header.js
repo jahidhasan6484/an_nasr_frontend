@@ -11,7 +11,7 @@ import Register from '../Register/Register';
 import Footer from '../Footer/Footer';
 
 const Header = () => {
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(true);
     const [showLogin, setShowLogin] = useState(false);
     const [showRegister, setShowRegister] = useState(false);
 

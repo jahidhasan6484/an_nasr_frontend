@@ -1,0 +1,15 @@
+.attention {
+    color: orange;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.form, .form-control {
+    background: transparent;
+    color: #fff;
+}
+
+.form-control:focus{
+    background-color: #1e293b;
+    color: #fff;
+}
